@@ -1,2 +1,0 @@
-defmodule ThyWorker do
-end

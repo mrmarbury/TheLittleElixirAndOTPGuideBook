@@ -1,3 +1,0 @@
-defmodule ThySupervisor do
-  
-end
