@@ -99,7 +99,7 @@ defmodule Pooly.Server do
     prepopulate(size, supervisor, [])
   end
 
-  defp prepopulate(size, _sup, workers) when size < 1 do
+  defp prepopulate(size, _supervisor, workers) when size < 1 do
     workers
   end
 

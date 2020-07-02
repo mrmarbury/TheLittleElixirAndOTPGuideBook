@@ -2,7 +2,7 @@ defmodule Pooly do
   use Application
 
   def start(_type, _args) do
-    pool_config = [mfs: {SampleWorker, :start_link, []}, size: 5]
+    pool_config = [mfa: {Pooly.SampleWorker, :start_link, []}, size: 5]
     start_pool(pool_config)
   end
 
